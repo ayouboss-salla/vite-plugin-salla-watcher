@@ -44,6 +44,3 @@ export const sallaWatcher = () => {
         }
     };
 };
-export default {
-    sallaWatcher
-};

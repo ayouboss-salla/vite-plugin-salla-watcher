@@ -70,7 +70,3 @@ export const sallaWatcher = () : Plugin => {
     }
   };
 }
-
-export default {
-  sallaWatcher
-}

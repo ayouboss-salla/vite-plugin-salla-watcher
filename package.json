@@ -1,9 +1,12 @@
 {
   "name": "vite-plugin-salla-watcher",
-  "version": "0.0.3",
-  "module": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "version": "0.0.4",
   "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js"
+    }
+  },
   "scripts": {
     "build": "tsc"
   },
