@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-salla-watcher",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
@@ -15,10 +15,13 @@
     "vite": ">=5.4.0"
   },
   "dependencies": {
+    "chokidar": "^4.0.0",
+    "websocket": "^1.0.35"
+  },
+  "devDependencies": {
     "@types/node": "^22.5.5",
     "@types/websocket": "^1.0.10",
-    "chokidar": "^4.0.0",
     "typescript": "^5.6.2",
-    "websocket": "^1.0.35"
+    "vite": "^5.4.5"
   }
 }

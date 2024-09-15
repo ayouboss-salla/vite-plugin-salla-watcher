@@ -1,4 +1,4 @@
-//import { Plugin } from 'vite';
+import { Plugin } from 'vite';
 import fs from "fs";
 import path from "path"
 import ws from "websocket"
@@ -19,7 +19,7 @@ type Params = {
 let params: Params = {}
 let connection: ws.connection
 
-export const sallaWatcher = () => {
+export const sallaWatcher = () : Plugin => {
   return {
     name: 'vite-plugin-salla-watcher',
     apply: 'build',

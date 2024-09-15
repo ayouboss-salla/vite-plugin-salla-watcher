@@ -1,4 +1,3 @@
-//import { Plugin } from 'vite';
 import fs from "fs";
 import path from "path";
 import ws from "websocket";

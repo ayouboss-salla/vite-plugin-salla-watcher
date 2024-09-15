@@ -1,15 +1,6 @@
-export declare const sallaWatcher: () => {
-    name: string;
-    apply: string;
-    config(): void;
-    buildEnd(): void;
-};
+import { Plugin } from 'vite';
+export declare const sallaWatcher: () => Plugin;
 declare const _default: {
-    sallaWatcher: () => {
-        name: string;
-        apply: string;
-        config(): void;
-        buildEnd(): void;
-    };
+    sallaWatcher: () => Plugin;
 };
 export default _default;
