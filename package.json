@@ -8,9 +8,9 @@
     "build": "tsc"
   },
   "keywords": [],
-  "author": "",
+  "author": "ayouboss",
   "license": "MIT",
-  "description": "",
+  "description": "Watcher plugin to develop Salla themes with Vite.",
   "peerDependencies": {
     "vite": ">=5.4.0"
   },
